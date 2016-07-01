@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://otahost.com/2016/06/23/hello-world/"/>
-    <id>http://otahost.com/2016/06/23/hello-world/</id>
+    <link href="http://otahost.com/hello-world/"/>
+    <id>http://otahost.com/hello-world/</id>
     <published>2016-06-23T08:32:11.000Z</published>
     <updated>2016-06-23T08:32:11.000Z</updated>
     
@@ -44,8 +44,8 @@
   
   <entry>
     <title>《百鸟朝凤》观感</title>
-    <link href="http://otahost.com/2016/05/22/song-of-the-phoenix/"/>
-    <id>http://otahost.com/2016/05/22/song-of-the-phoenix/</id>
+    <link href="http://otahost.com/song-of-the-phoenix/"/>
+    <id>http://otahost.com/song-of-the-phoenix/</id>
     <published>2016-05-22T15:31:59.000Z</published>
     <updated>2016-06-28T09:38:53.000Z</updated>
     
@@ -74,8 +74,8 @@
   
   <entry>
     <title>故人和熟人</title>
-    <link href="http://otahost.com/2016/05/14/old-friend/"/>
-    <id>http://otahost.com/2016/05/14/old-friend/</id>
+    <link href="http://otahost.com/old-friend/"/>
+    <id>http://otahost.com/old-friend/</id>
     <published>2016-05-14T08:18:02.000Z</published>
     <updated>2016-06-28T10:12:16.000Z</updated>
     
@@ -103,8 +103,8 @@
   
   <entry>
     <title>A Short Post</title>
-    <link href="http://otahost.com/2015/12/21/a-short-post/"/>
-    <id>http://otahost.com/2015/12/21/a-short-post/</id>
+    <link href="http://otahost.com/a-short-post/"/>
+    <id>http://otahost.com/a-short-post/</id>
     <published>2015-12-21T13:01:47.000Z</published>
     <updated>2016-06-28T03:24:24.000Z</updated>
     
