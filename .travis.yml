@@ -1,0 +1,31 @@
+language: node_js
+node_js:
+    - "node"
+
+before_install:
+    - npm install hexo-cli -g
+
+install:
+    - npm install
+
+before_script:
+    - git config --global user.name 'hezhongrui'
+    - git config --global user.email 'wild2007@live.cn'
+
+script:
+    - hexo generate
+
+after_success:
+    - cd ./public
+    - git init
+    - git remote add origin $DEPLOY_REPO
+    - git add .
+    - git commit -m 'Site updated'
+    - git push --force --quiet origin master
+
+branches:
+  only:
+    - hexo
+env:
+ global:
+   - GH_REF: github.com/hezhongrui/hezhongrui.github.io.git
