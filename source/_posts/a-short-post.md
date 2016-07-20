@@ -8,3 +8,4 @@ tags:
 ---
 
 Sometimes a short post is all it takes to get your point across. Which is the point of this post.
+<!-- more -->
