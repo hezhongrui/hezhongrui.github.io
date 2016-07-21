@@ -15,7 +15,7 @@ timezone:
 ## :year/:month/:day/:title/
 url: http://otahost.com
 root: /
-permalink: :title/
+permalink: :year/:title/
 permalink_defaults:
 
 # Directory
