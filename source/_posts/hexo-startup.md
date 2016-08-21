@@ -1,5 +1,5 @@
 ---
-title: 搭建hexo博客
+title: 搭建 hexo 博客
 date: 2016-07-24 23:07:22
 tags:
 ---
