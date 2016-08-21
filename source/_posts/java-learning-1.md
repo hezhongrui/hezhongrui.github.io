@@ -21,8 +21,8 @@ public class Hello{
 - JRE 是 Java Runtime Environment 的缩写，即 Java 运行环境。
 - JDK 是 Java Development Kit 的缩写，即 Java 的软件开发工具集。
 - Java 的源文件是以 `.java` 为后缀，编译出来的同名文件则是以 `.class` 为后缀。
-- 环境变量 path 和 classpath 分别用于寻找 Java 命令程序和类文件的路径
-- Javac 命令行工具用于编译源程序，java 命令用于运行该程序，注意运行时不加后缀名
+- 环境变量 path 和 classpath 分别用于寻找 Java 命令程序和类文件的路径。
+- Javac 命令行工具用于编译源程序，java 命令用于运行该程序，注意运行时不加后缀名。
 
 在运行这个 Hello World 程序的时候，编译器报了一个错：
 > `错误: 需要class, interface或enum`
