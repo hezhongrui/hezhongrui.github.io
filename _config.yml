@@ -68,13 +68,13 @@ pagination_dir: page
 theme: apollo
 
 marked:
-    gfm: true
-    pedantic: false
-    sanitize: false
-    tables: true
-    breaks: true
-    smartLists: true
-    smartypants: true
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
