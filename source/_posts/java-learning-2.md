@@ -6,6 +6,7 @@ tags:
 ![Hibiscus](http://7xw3qx.com1.z0.glb.clouddn.com/16-8-22/93753616.jpg)
 <div align = center>木槿</div>
 今日的笔记内容是 Java 的标识符和面向对象编程中的一些基础概念。
+
 <!-- more -->
 标识符是程序中我们自己命名的一些名字，比如类名、变量名、方法名、方法参数名等等。关于标识符有几点要求：
 

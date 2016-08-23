@@ -6,6 +6,7 @@ tags:
 ![bamboo_cat](http://7xw3qx.com1.z0.glb.clouddn.com/16-8-21/16376256.jpg)
 <div align = center>竹林里的猫</div>
 最近由于工作的原因，要从头开始学习 Java 了，以后可能会在这里每天更新学习笔记，我相信这些笔记对于初学者会有点帮助。
+
 <!-- more -->
 Java 的 Hello World 入门程序
 
