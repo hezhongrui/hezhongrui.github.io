@@ -4,8 +4,8 @@
 
 # Site
 title: LonelyCat
-subtitle: 南有乔木 不可休思 汉有游女 不可求思
-description: LonelyCat的博客
+subtitle: LonelyCat's blog
+description: LonelyCat 的个人博客
 author: LonelyCat
 language: zh-cn
 timezone:
@@ -86,8 +86,8 @@ deploy:
 # 在归档页面显示所有文章
 # 需要上面安装的 hexo-generator-archive 插件支持
 archive_generator:
-    per_page: 0
-    yearly: false
+    per_page: 20
+    yearly: true
     monthly: false
     daily: false
 
