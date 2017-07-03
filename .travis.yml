@@ -26,6 +26,6 @@ after_success:
 branches:
   only:
     - hexo
-env:
- global:
-   - GH_REF: github.com/hezhongrui/hezhongrui.github.io.git
+# env:
+#  global:
+#    - GH_REF: github.com/hezhongrui/hezhongrui.github.io.git
