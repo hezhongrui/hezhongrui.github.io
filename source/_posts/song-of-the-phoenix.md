@@ -21,6 +21,6 @@ tags:
 
 微信朋友圈里看完电影的人都在为唢呐的没落唏嘘感慨，我反倒觉得这样的结局很好。一切旧时代里美好的事物，如果在新时代中没人欣赏没人珍惜，就应该让它有尊严地逝去，把荣光留在属于它自己的时代里。嵇康临死前说「广陵散于今绝矣」，伯牙摔琴谢知音，世上也再无百鸟朝凤，越珍贵稀缺的东西，若没人懂得，就让它消失得越彻底吧。
 
-一直很喜欢这首古风歌的MV，开头的唢呐声，透着宿命的味道
+一直很喜欢这首古风歌，开头的唢呐声，透着宿命的味道。
 
-<iframe src="http://www.tudou.com/programs/view/html5embed.action?type=0&code=aJriUgeF0Ec&lcode=&resourceId=0_06_05_99" allowtransparency="true" allowfullscreen="true" allowfullscreenInteractive="true" scrolling="no" border="0" frameborder="0" style="width:480px;height:400px;"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=28493377&auto=0&height=32"></iframe>
