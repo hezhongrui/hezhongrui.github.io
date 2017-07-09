@@ -29,3 +29,6 @@ branches:
 # env:
 #  global:
 #    - GH_REF: github.com/hezhongrui/hezhongrui.github.io.git
+cache:
+  directories:
+    - node_modules
