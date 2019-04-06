@@ -3,7 +3,6 @@ title: Java 学习笔记（四）
 date: 2016-08-23 17:11:36
 tags:
 ---
-![sunflower](http://7xw3qx.com1.z0.glb.clouddn.com/16-7-23/57235055.jpg)
 <div align = center>夕阳下的向日葵</div> 
 Java 中的运算符，对程序中的数据进行操作或运算。
 

@@ -3,8 +3,6 @@ title: 秋意渐浓
 date: 2016-08-28 16:15:26
 tags:
 ---
-![sky_Chengde](http://7xw3qx.com1.z0.glb.clouddn.com/16-8-28/15889489.jpg)
-<div align = center>承德的天空</div>
 秋天是北方最好的季节，万里长空，风起云涌，于是心胸便也随之开阔。
 
 <!-- more -->

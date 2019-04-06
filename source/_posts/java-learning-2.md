@@ -3,8 +3,6 @@ title: Java 学习笔记（二）
 date: 2016-08-21 17:31:33
 tags:
 ---
-![Hibiscus](http://7xw3qx.com1.z0.glb.clouddn.com/16-8-22/93753616.jpg)
-<div align = center>木槿</div>
 今日的笔记内容是 Java 的标识符和面向对象编程中的一些基础概念。
 
 <!-- more -->

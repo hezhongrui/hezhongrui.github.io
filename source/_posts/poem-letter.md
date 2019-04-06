@@ -3,7 +3,6 @@ title: 信
 date: 2016-08-23 10:11:52
 tags:
 ---
-![balthus](http://7xw3qx.com1.z0.glb.clouddn.com/16-8-23/90132012.jpg)
 <!-- more -->
 > 我寄你的信，
 > 总要送往邮局，

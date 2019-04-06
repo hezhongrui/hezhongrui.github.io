@@ -3,8 +3,6 @@ title: 夏天
 date: 2017-07-30 17:37:27
 tags:
 ---
-![sunset](http://7xw3qx.com1.z0.glb.clouddn.com/sunset0730.JPG)
-<div align = center>傍晚的云霞</div>
 <!-- more -->
 > 夏日到来，令我怀念！
 

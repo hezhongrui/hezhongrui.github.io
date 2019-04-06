@@ -3,7 +3,6 @@ title: Java 学习笔记（三）
 date: 2016-08-22 19:54:38
 tags:
 ---
-![sleep](http://7xw3qx.com1.z0.glb.clouddn.com/16-8-23/96002262.jpg)
 Java 是一门静态语言，在使用一个变量前要求必须声明它的类型。
 <!-- more -->
 Java 中的数据类型分为两类：
