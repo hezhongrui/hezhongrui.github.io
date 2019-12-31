@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="zh-cn"><head><meta name="generator" content="Hexo 3.9.0"><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> Java 学习笔记（四） · LonelyCat</title><meta name="description" content="Java 学习笔记（四） - LonelyCat"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://otahost.com/atom.xml" title="LonelyCat"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="/about/" target="_self" class="nav-list-link">ABOUT</a></li><li class="nav-list-item"><a href="/twitter/" target="_self" class="nav-list-link">WEIBO</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">Java 学习笔记（四）</h1><div class="post-info">2016年8月23日</div><div class="post-content"><p><div align="center">夕阳下的向日葵</div><br>Java 中的运算符，对程序中的数据进行操作或运算。</p>
+<a id="more"></a>
+<p>大部分运算符可以接受基本类型作为操作数，少部分操作符如<code>=</code>、<code>==</code>、<code>!=</code>可以操作任意对象，即支持引用类型。</p>
+<p>在 Java 中，使用<code>=</code>对一个对象进行赋值时，真正操作的是它的引用，即是对对应引用进行拷贝。比如：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Blog blog = <span class="keyword">new</span> Blog(<span class="string">"我的博客"</span>,<span class="string">"这是我的第一篇博客"</span>);</span><br><span class="line">Blog blogB = blog;	<span class="comment">//表示blogB和blog指向同一篇博客</span></span><br></pre></td></tr></table></figure>
+<p>基本运算符<code>+</code>，<code>-</code>，<code>*</code>，<code>/</code>，<code>%</code>，对应的赋值运算符分别为<code>+=</code>，<code>-=</code>，<code>*=</code>，<code>/=</code>，<code>%=</code>。</p>
+<p>Java 也提供自增自减运算符<code>--</code>和<code>++</code>来使代码更简洁，分别表示增加 1 和减少 1 ：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">i++;</span><br><span class="line">i += <span class="number">1</span>;</span><br><span class="line">i = i + <span class="number">1</span>;</span><br><span class="line">i--;</span><br><span class="line">i -= <span class="number">1</span>;</span><br><span class="line">i = i - <span class="number">1</span>;</span><br></pre></td></tr></table></figure>
+<p>上面的代码，前三行完全等价，表示自增 1 ，后三行也完全等价，表示自减 1 。</p>
+<p>逻辑运算符有三种：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">逻辑运算符</th>
+<th style="text-align:center">逻辑运算</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">&amp;&amp;</td>
+<td style="text-align:center">与</td>
+</tr>
+<tr>
+<td style="text-align:center">&#124;&#124;</td>
+<td style="text-align:center">或</td>
+</tr>
+<tr>
+<td style="text-align:center">!</td>
+<td style="text-align:center">非</td>
+</tr>
+</tbody>
+</table>
+<p>位运算符有七种：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">位运算符</th>
+<th style="text-align:center">计算逻辑</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">&amp;</td>
+<td style="text-align:center">与运算：对于某一位，只要两个操作数都为 1 ，则该位的结果为 1 ，否则为 0</td>
+</tr>
+<tr>
+<td style="text-align:center">&#124;</td>
+<td style="text-align:center">或运算：对于某一位，只要两个操作数有一个为 1 ，则该位的结果为 1 ，否则为 0</td>
+</tr>
+<tr>
+<td style="text-align:center">^</td>
+<td style="text-align:center">异或运算：对于某一位，如果两个操作数不相同，则该位的结果为 1 ，否则为 0</td>
+</tr>
+<tr>
+<td style="text-align:center">~</td>
+<td style="text-align:center">非运算：反转操作数的每一位</td>
+</tr>
+<tr>
+<td style="text-align:center">&lt;&lt;</td>
+<td style="text-align:center">二进制左移运算符：左操作数按位左移右操作数指定的位数</td>
+</tr>
+<tr>
+<td style="text-align:center">&gt;&gt;</td>
+<td style="text-align:center">二进制右移运算符：左操作数按位右移右操作数指定的位数</td>
+</tr>
+<tr>
+<td style="text-align:center">&gt;&gt;&gt;</td>
+<td style="text-align:center">二进制右移补零操作符：左操作数的值按右操作数指定的位数右移，移动得到的空位以零填充</td>
+</tr>
+</tbody>
+</table>
+<p>Java 中的条件运算符是一个三元运算符，形式如下：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">booleanExpression ? valueTrue : valueFalse</span><br></pre></td></tr></table></figure>
+<p>如果布尔表达式的值为 <code>true</code> ，则表达式的值为 <code>valueTrue</code> 的值，否则为 <code>valueFalse</code> 的值。</p>
+</div></article></div></section><footer><div class="paginator"><a href="/2016/autumn-comes/" class="prev">上一篇</a><a href="/2016/poem-letter/" class="next">下一篇</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'lonelycat';
+var disqus_identifier = '2016/java-learning-4/';
+var disqus_title = 'Java 学习笔记（四）';
+var disqus_url = 'http://otahost.com/2016/java-learning-4/';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><script id="dsq-count-scr" src="//lonelycat.disqus.com/count.js" async></script><div class="copyright"><p>© 2015 - 2019 <a href="http://otahost.com">LonelyCat</a>, a personal website.</p></div></footer></div></body></html>

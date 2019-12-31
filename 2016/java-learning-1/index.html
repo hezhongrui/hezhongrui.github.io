@@ -1,0 +1,32 @@
+<!DOCTYPE html><html lang="zh-cn"><head><meta name="generator" content="Hexo 3.9.0"><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> Java 学习笔记（一） · LonelyCat</title><meta name="description" content="Java 学习笔记（一） - LonelyCat"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://otahost.com/atom.xml" title="LonelyCat"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="/about/" target="_self" class="nav-list-link">ABOUT</a></li><li class="nav-list-item"><a href="/twitter/" target="_self" class="nav-list-link">WEIBO</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">Java 学习笔记（一）</h1><div class="post-info">2016年8月20日</div><div class="post-content"><p>最近由于工作的原因，要从头开始学习 Java 了，以后可能会在这里每天更新学习笔记，我相信这些笔记对于初学者会有点帮助。</p>
+<a id="more"></a>
+<p>Java 的 Hello World 入门程序</p>
+<pre><code class="java"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Hello</span></span>{
+    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args [])</span></span>{
+        System.out.println(<span class="string">"Hello World!"</span>);
+    }
+} 
+</code></pre>
+<ul>
+<li>JVM 是 Java Virtual Machine (Java 虚拟机)的缩写。</li>
+<li>JRE 是 Java Runtime Environment 的缩写，即 Java 运行环境。</li>
+<li>JDK 是 Java Development Kit 的缩写，即 Java 的软件开发工具集。</li>
+<li>Java 的源文件是以 <code>.java</code> 为后缀，编译出来的同名文件则是以 <code>.class</code> 为后缀。</li>
+<li>环境变量 path 和 classpath 分别用于寻找 Java 命令程序和类文件的路径。</li>
+<li>Javac 命令行工具用于编译源程序，java 命令用于运行该程序，注意运行时不加后缀名。</li>
+</ul>
+<p>在运行这个 Hello World 程序的时候，编译器报了一个错：</p>
+<blockquote>
+<p><code>错误: 需要class, interface或enum</code></p>
+</blockquote>
+<p>但是我仔细检查这短短几行代码，没有发现任何问题。在网上搜索了一下，有人说可能是编辑器的问题，我自己使用的是 Sublime Text 2 ，于是把代码复制粘贴到 Vim 里，保存并重新运行，这次果然成功了。所以我觉得，对于语法要求严格的语言，最好还是用可靠的编译器，或者是用类似 Vim 这类久经考验的纯文本编辑器。</p>
+<p>虽然现在才开始学 Java 有点晚了，有不少人认为 Java 技术已经是明日黄花，就像现在的 C++ 一样，但是我觉得，至少在看得见的未来，Java 应该还会是应用最广泛的编程语言之一。至于晚不晚，就像那句不知哪位哲人说的话：「种一颗树的最佳时机是十年以前，其次是现在」。而我们每一个人，其实真正拥有的永远都只有现在。</p>
+</div></article></div></section><footer><div class="paginator"><a href="/2016/java-learning-2/" class="prev">上一篇</a><a href="/2016/think-before-you-search/" class="next">下一篇</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'lonelycat';
+var disqus_identifier = '2016/java-learning-1/';
+var disqus_title = 'Java 学习笔记（一）';
+var disqus_url = 'http://otahost.com/2016/java-learning-1/';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><script id="dsq-count-scr" src="//lonelycat.disqus.com/count.js" async></script><div class="copyright"><p>© 2015 - 2019 <a href="http://otahost.com">LonelyCat</a>, a personal website.</p></div></footer></div></body></html>

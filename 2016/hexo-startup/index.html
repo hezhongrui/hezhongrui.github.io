@@ -1,0 +1,31 @@
+<!DOCTYPE html><html lang="zh-cn"><head><meta name="generator" content="Hexo 3.9.0"><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 搭建 Hexo 博客 · LonelyCat</title><meta name="description" content="搭建 Hexo 博客 - LonelyCat"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://otahost.com/atom.xml" title="LonelyCat"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="/about/" target="_self" class="nav-list-link">ABOUT</a></li><li class="nav-list-item"><a href="/twitter/" target="_self" class="nav-list-link">WEIBO</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">搭建 Hexo 博客</h1><div class="post-info">2016年7月24日</div><div class="post-content"><p>打算开始把这个博客当做一个网络记事本，将自己的见闻感想，学习笔记，无论有用没用，能公开的全都放在这里。这一篇就简单记录一下博客的搭建过程，不过不是具体的教程，只是一个概览，供与我有类似需求的人参考。具体的教程网络上很多，建议自己搜索一下，结合官网文档去看。我搭建这个看似非常简单的博客前前后后读了有二三十位不同博主写的教程文章，收获很多，在这里就不把链接一一列举出来了，但是真心非常感谢所有乐于无私分享技术的人。<br><a id="more"></a><br>之前这个博客使用的是WordPress，这一次换成了Hexo，把网站从动态迁移到了静态。由于空间商不稳定和安全问题，先前的网站经历了好几次被迫「转世」，让我对WordPress又爱又恨。爱的是它的简洁优雅强大，有丰富成熟的各类主题和插件，况且因为熟悉，因为习惯了，便不想再换，熟悉的物对我而言和熟悉的人一样，总是容易眷恋不舍，况且改变习惯也是一件比较痛苦的事情。遗憾的是动态网站对空间的要求比较高，海外空间要么太贵要么访问速度慢或不稳定，国内的空间又需要域名备案，也是一件麻烦事，还有数据库的备份迁移比较复杂，所以这一次痛下决心，转向静态网站阵营。Hexo博客搭建的基本过程如下：</p>
+<ul>
+<li>安装<a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a>（Hexo的运行环境）</li>
+<li>安装<a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a></li>
+<li>配置Git和<a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+<li>安装<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a></li>
+<li>配置Hexo</li>
+<li>部署到<a href="https://pages.github.com/" target="_blank" rel="noopener">Gitpage</a></li>
+<li>优化定制自己的网站</li>
+<li>切换电脑写博客的问题（建议使用Github仓库存储源文件，用<a href="https://travis-ci.org/" target="_blank" rel="noopener">Travis CI</a>自动化部署，或者用云虚拟机在远程部署）</li>
+<li>学习<a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank" rel="noopener">Markdown</a>这种写作方式</li>
+</ul>
+<p>在选择Hexo之前，其实也有过一番纠结，静态网站程序或托管网站也有很多，除了Hexo，还有诸如Jekyll,Octopress，FarBox，Prose.io等，都有各自的优缺点，我综合考量了一下，以简单、免费、高效、可定制程度高为原则，筛选出了Hexo，个人觉得Hexo在这几个方面达到了一个较好的平衡。在我看来，每一个网页，尤其是静态网站的页面，都可以看作一个独立的「文件」，那么一个小型博客网站里的每一篇文章，都是一个网页，也就是一个文件。对于Hexo博客，每篇文章页面就是一个个Markdown源文件，我们唯一需要做的就是创建并维护这个文件，剩下的事情都交给程序或服务去做，而Markdown的好处就在于易学易用，所以到最后，你需要关注的只剩下了写作本身，毕竟搭建一个独立博客的目的就是自由地写东西，所有其他方面的折腾都应该是辅助写作和更好地呈现内容，而不是分散你的精力。</p>
+<p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="http://music.163.com/outchain/player?type=2&id=33255998&auto=0&height=32"></iframe><br>藏龍</p>
+<p>天風醺似酒 好夢如當年<br>木樨香輕軟 吹入雲月間<br>故友共抱壇 且飲且話秋夜長安<br>醉至沉酣 枕臂倚眠誰家檐</p>
+<p>終一十七年 流光似電<br>觸目皆舊游 亭台曲欄<br>手植並蒂蓮 折損其半<br>剩一枝攀折在手似遺簪</p>
+<p>重臨藏龍園 借一柄堂前枯荷 聽雨落如簾<br>時夏清陰減 誰笑指青萍池滿 說風起此間<br>顧見照眼榴花開欲燃 拂白衫</p>
+<p>倏忽去經年 聽一聲醒木拍案 曲終人皆散<br>醉與旁人言 如何知傷心舊事 巷尾傳笑談<br>抬眼白衣蒼狗紛生滅 雲舒卷</p>
+<p>煙寒失驛棧 恍惚似初見<br>沉塘起微瀾 隱隱青鱗泛<br>浮雲裂如斬 雷霆萬鈞清光紫電<br>疑真作幻 原不知應劫起緣</p>
+<p>聞說十二樓 宮闕清寒<br>瓊漿勝新醅 獨酌無歡<br>是夕月華濃 盈盈如泛<br>憶人間此夜親舊共團欒</p>
+<p>重臨藏龍園 借一柄堂前枯荷 聽雨落如簾<br>時夏清陰減 曾笑指青萍池滿 說風起此間<br>顧見照眼榴花開欲燃 落折扇</p>
+<p>倏忽去經年 聽一聲醒木拍案 曲終人已散<br>醉與旁人言 且由他紅塵舊事 巷尾傳笑談<br>伏案卻勞鶴氅覆雙肩 待醒轉</p>
+</div></article></div></section><footer><div class="paginator"><a href="/2016/think-before-you-search/" class="prev">上一篇</a><a href="/2016/song-of-the-phoenix/" class="next">下一篇</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'lonelycat';
+var disqus_identifier = '2016/hexo-startup/';
+var disqus_title = '搭建 Hexo 博客';
+var disqus_url = 'http://otahost.com/2016/hexo-startup/';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><script id="dsq-count-scr" src="//lonelycat.disqus.com/count.js" async></script><div class="copyright"><p>© 2015 - 2019 <a href="http://otahost.com">LonelyCat</a>, a personal website.</p></div></footer></div></body></html>

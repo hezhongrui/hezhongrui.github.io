@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="zh-cn"><head><meta name="generator" content="Hexo 3.9.0"><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> Java 学习笔记（三） · LonelyCat</title><meta name="description" content="Java 学习笔记（三） - LonelyCat"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://otahost.com/atom.xml" title="LonelyCat"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="/about/" target="_self" class="nav-list-link">ABOUT</a></li><li class="nav-list-item"><a href="/twitter/" target="_self" class="nav-list-link">WEIBO</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">Java 学习笔记（三）</h1><div class="post-info">2016年8月22日</div><div class="post-content"><p>Java 是一门静态语言，在使用一个变量前要求必须声明它的类型。<br><a id="more"></a><br>Java 中的数据类型分为两类：</p>
+<ul>
+<li>内置数据类型（或称为原生数据类型）</li>
+<li>引用数据类型</li>
+</ul>
+<p>Java 语言提供了八种基本类型，其中包括六种数字类型（四种整数型，两种浮点型），一种字符类型，还有一种布尔型。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">数据类型</th>
+<th style="text-align:center">大小（位数）</th>
+<th style="text-align:center">封装类</th>
+<th style="text-align:center">默认值</th>
+<th style="text-align:center">数据范围</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">byte</td>
+<td style="text-align:center">8</td>
+<td style="text-align:center">Byte</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">-128~127</td>
+</tr>
+<tr>
+<td style="text-align:center">short</td>
+<td style="text-align:center">16</td>
+<td style="text-align:center">Short</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">-32768~32767</td>
+</tr>
+<tr>
+<td style="text-align:center">int</td>
+<td style="text-align:center">32</td>
+<td style="text-align:center">Integer</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">-2147483648~2147483647</td>
+</tr>
+<tr>
+<td style="text-align:center">long</td>
+<td style="text-align:center">64</td>
+<td style="text-align:center">Long</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">-2^64/2~2^64/2-1</td>
+</tr>
+<tr>
+<td style="text-align:center">float</td>
+<td style="text-align:center">32</td>
+<td style="text-align:center">Float</td>
+<td style="text-align:center">0.0</td>
+<td style="text-align:center">1.4E-45~3.4028235E38</td>
+</tr>
+<tr>
+<td style="text-align:center">double</td>
+<td style="text-align:center">64</td>
+<td style="text-align:center">Double</td>
+<td style="text-align:center">0.0</td>
+<td style="text-align:center">4.9E-324~1.7976931348623157E308</td>
+</tr>
+<tr>
+<td style="text-align:center">char</td>
+<td style="text-align:center">16</td>
+<td style="text-align:center">Character</td>
+<td style="text-align:center">空</td>
+<td style="text-align:center">0~65535</td>
+</tr>
+<tr>
+<td style="text-align:center">boolean</td>
+<td style="text-align:center">8</td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center">false</td>
+<td style="text-align:center">true或false</td>
+</tr>
+</tbody>
+</table>
+<p>一个变量在声明时如果不是声明为内置的数据类型，那就一定是声明为一个<code>类</code>，这是该变量是一个引用类型变量。引用类型由类的构造函数创建。所有引用类型如果不进行初始化赋值，默认值是 <code>null</code> 。</p>
+<p>比如 <code>String</code> 类型的引用，其默认长度为 0 ，默认值为 <code>null</code> 。</p>
+<p>常量在 Java 中用 final 标志，声明方式和变量类似。为便于识别，通常用大写字母表示常量，比如：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">final</span> <span class="keyword">double</span> PI = <span class="number">3.1415927</span>;</span><br></pre></td></tr></table></figure>
+</div></article></div></section><footer><div class="paginator"><a href="/2016/poem-letter/" class="prev">上一篇</a><a href="/2016/java-learning-2/" class="next">下一篇</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'lonelycat';
+var disqus_identifier = '2016/java-learning-3/';
+var disqus_title = 'Java 学习笔记（三）';
+var disqus_url = 'http://otahost.com/2016/java-learning-3/';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><script id="dsq-count-scr" src="//lonelycat.disqus.com/count.js" async></script><div class="copyright"><p>© 2015 - 2019 <a href="http://otahost.com">LonelyCat</a>, a personal website.</p></div></footer></div></body></html>
